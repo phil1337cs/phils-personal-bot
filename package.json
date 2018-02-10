@@ -1,8 +1,13 @@
 {
   "name": "phils-personal-bot",
-  "version": "1.0.0",
   "description": "Mein erster eigener Discord Bot!",
+  "version": "1.0.0",
   "main": "bot.js",
-  "author": "Philipp Kowalski",
-  "dependencies": {}
+  "scripts": {
+    "start": "node bot.js
+  },
+  "dependencies": {
+  "discord.js": "11.1.0",
+  "request": "2.81.0"
+  }
 }
