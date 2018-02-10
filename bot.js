@@ -1,9 +1,8 @@
 const Discord = require('discord.js);
 const client = new Discord.Client();
 
-client.on('Bereit', () => {
-  console.log('Ich bin bereit!');
-  
+client.on('ready', () => {
+  console.log('I am ready!');
 });
 
 client.on('message', message => {
