@@ -12,7 +12,7 @@ client.on('message', message => {
   }
   else if (message.content === '!nrwunited')
   {
-    message.reply('Das Team NRW-United besitzt derzeit folgendes Lineup: \nphil1337 - IGL/Rifler\nweeaaks - Rifler (Support)\nJigga - Rifler\naimyo - Rifler (entry fragger)\nsmi. - AWPer\n\nProtyx - Rifler (Stand-In)') 
+    message.reply('\nDas Team NRW-United besitzt derzeit folgendes Lineup: \nphil1337 - IGL/Rifler\nweeaaks - Rifler (Support)\nJigga - Rifler\naimyo - Rifler (entry fragger)\nsmi. - AWPer\n\nProtyx - Rifler (Stand-In)') 
   }
                 
 });
