@@ -16,9 +16,7 @@ client.on('message', message => {
   }
   else if (message.content === '!help')
   {
-    message.reply('\n!bot = Infos über den Bot'
-                  '\n!nrwunited = Infos über unser Team'
-                  '\n!help = Liste der Commands')
+    message.reply('\n!bot = Infos über den Bot\n!nrwunited = Infos über unser Team\n!help = Liste der Commands')
   }
                 
 });
