@@ -15,6 +15,12 @@ client.on('message', message => {
     message.reply('\nDas Team NRW-United besitzt derzeit folgendes Lineup: \nphil1337 - IGL/Rifler\nweeaaks - Rifler (Support)'
                   '\nJigga - Rifler\naimyo - Rifler (entry fragger)\nsmi. - AWPer\n\nProtyx - Rifler (Stand-In)') 
   }
+  else if (message.content === '!help')
+  {
+    message.reply('\n!bot = Infos über den Bot'
+                  '\n!nrwunited = Infos über unser Team'
+                  '\n!help = Liste der Commands')
+  }
                 
 });
 
