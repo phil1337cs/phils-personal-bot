@@ -7,25 +7,9 @@ client.on('Bereit', () => {
 });
 
 client.on('message', message => {
-
-  if (message.substring(0, 1) == '!') {
-        var args = message.substring(1).split(' ');
-        var cmd = args[0];
-       
-        args = args.splice(1);
-        switch(cmd) {
-            // !bot
-            case 'bot':
-                bot.sendMessage({
-                    to: channelID,
-                    message: 'Dieser Bot wurde von Philipp Kowalski erstellt!'
-                });
-            break;
-            
-           }
-     }
-    
-  client.login(process.env.BOT_TOKEN);
-  
-  
+  if (message.content === '!bot') {
+    message.reply('Dieser Bot wurde von Philipp Kowalski am 10.02.2018 erstellt. Viel Spaß auf meinem Server!');
+  }
 });
+
+ client.login(process.env.BOT_TOKEN);
